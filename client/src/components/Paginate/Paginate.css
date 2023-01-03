@@ -1,0 +1,36 @@
+.paginate{
+    display: flex;
+    background-color: #583716 ;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+  }
+  
+  .list-u {
+    padding: 0 0 0 0;
+    background-color: #583716;
+    width: 70vw;
+    height: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .buttPage {
+    background-color: #2a1609;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+    width: 1.5vw;
+    border-radius: 10px;
+    height: 5vh;
+    color: #ffffff;
+    font-size: large;
+  }
+  
+  .buttPage:hover{
+    background-color:#2E2E2E;
+  }

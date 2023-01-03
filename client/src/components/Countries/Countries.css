@@ -1,0 +1,39 @@
+.countriesContainer{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 2rem 0;
+}
+.filterContainer{
+    background-color: #583716;
+    display: inline-flex;
+    width: 100%;
+    height: 4vh;
+    padding: 0 0 1rem 0;
+    justify-content:flex-end;
+    align-items: stretch;
+}
+
+.countriesBox{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85%;
+    justify-content: space-evenly;
+    margin: 1rem 0 ;
+}
+
+.filter-and-order{
+    margin-left: 1rem;
+    border-radius: 10px;
+    border:none;
+    background-color: #2a1609;
+    color: #ffffff;
+    font-size: large;
+    cursor: pointer;
+}
+.filter-and-order:last-of-type{
+    margin-right: 0.8rem;
+}
+
+.filter-and-order:first-of-type{
+    margin-left: 0;
+} 
