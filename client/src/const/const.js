@@ -12,13 +12,13 @@ export const FILTER_BY_CONTINENT = 'FILTER_BY_CONTINENT'
 export const FILTER_BY_ACTIVITIES = 'FILTER_BY_ACTIVITIES'
 
 export const ALL = 'All'
-export const ALL_OF_N_AMERICA = "North America"
-export const ALL_OF_S_AMERICA = "South America"
-export const ALL_OF_ASIA = "Asia"
-export const ALL_OF_AFRICA = "Africa"
-export const ALL_OF_EUROPE = "Europe"
-export const ALL_OF_OCEANIA = "Oceania"
-export const ALL_OF_ANTARCTICA = "Antarctica"
+export const NORTH_AMERICA = "North America"
+export const SOUTH_AMERICA = "South America"
+export const ASIA = "Asia"
+export const AFRICA = "Africa"
+export const EUROPE = "Europe"
+export const OCEANIA = "Oceania"
+export const ANTARCTICA = "Antarctica"
 
 export const ORDER_BY_POPULATION = 'POPULATION'
 export const HIGHER_POPULATION = 'HIGHER_POPULATION'

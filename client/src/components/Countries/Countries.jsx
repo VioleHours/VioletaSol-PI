@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { getCountries, filterCountriesByContinent, filterCountriesByActivity, orderByName, orderByPopulation, getActivities} from "../../actions/index";
-import { LESS_POPULATION, HIGHER_POPULATION, ALL, ALL_OF_AFRICA, ALL_OF_N_AMERICA, ALL_OF_S_AMERICA, ALL_OF_ANTARCTICA, ALL_OF_ASIA, ALL_OF_EUROPE, ALL_OF_OCEANIA, ASCENDENTE, DESCENDENTE} from "../../const/const";
+import { LESS_POPULATION, HIGHER_POPULATION, ALL, AFRICA, NORTH_AMERICA, SOUTH_AMERICA, ANTARCTICA, ASIA, EUROPE, OCEANIA, ASCENDENTE, DESCENDENTE} from "../../const/const";
 import Card from "../Country/Country";
 import Paginado from "../Paginate/Paginate"
 import "./Countries.css";
@@ -92,13 +92,13 @@ export default function Home() {
         <select className='filter-and-order' onChange={(e) => handleFilterContinent(e)}>
           <option value="continent">Continentes</option>
           <option value={ALL}>Todos</option>
-          <option value={ALL_OF_AFRICA}>Africa</option>
-          <option value={ALL_OF_ANTARCTICA}>Antartida</option>
-          <option value={ALL_OF_N_AMERICA}>America del Norte</option>
-          <option value={ALL_OF_S_AMERICA}>America del Sur</option>
-          <option value={ALL_OF_ASIA}>Asia</option>
-          <option value={ALL_OF_EUROPE}>Europa</option>
-          <option value={ALL_OF_OCEANIA}>Oceania</option>
+          <option value={AFRICA}>Africa</option>
+          <option value={ANTARCTICA}>Antartida</option>
+          <option value={NORTH_AMERICA}>America del Norte</option>
+          <option value={SOUTH_AMERICA}>America del Sur</option>
+          <option value={ASIA}>Asia</option>
+          <option value={EUROPE}>Europa</option>
+          <option value={OCEANIA}>Oceania</option>
         </select>
       </div>
 
