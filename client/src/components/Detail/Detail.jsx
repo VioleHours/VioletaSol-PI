@@ -41,7 +41,7 @@ export default function Detail (props){
                     return(
                       <div>
                         <Link className='linkDetail' to='/activities'>
-                        <h2>Actividad</h2>
+                        <h2>Activity</h2>
                         </Link>
                         <div className='obj3Detail'>
                         <h3>{el.name}</h3>

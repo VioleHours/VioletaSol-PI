@@ -11,6 +11,7 @@
     display: inline-flex;
     width: fit-content;
     margin-left: 20vh;
+    margin-right: -70%;
 }
 
 
@@ -37,6 +38,7 @@
 .byYo{
     color: #ffffff;
     font-size: 1.2rem;
-    margin-left:5%;
+    margin-left: -3%;
+    margin-right: -103%;
     margin-top: -2%;
 }

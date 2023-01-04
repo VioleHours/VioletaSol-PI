@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <div className="countriesContainer">
       <div className="filterContainer">
-      <button id='b1' className='filter-and-order' onClick={(e)=>reloadButton(e)}>Recargar</button>
+      <button id='b1' className='filter-and-order' onClick={(e)=>reloadButton(e)}>Reload</button>
         <select className='filter-and-order'
           onChange={(e) => {
             handleSort(e);
