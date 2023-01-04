@@ -10,6 +10,7 @@
     justify-content: space-around ;
     display: inline-flex;
     width: fit-content;
+    margin-left: 20vh;
 }
 
 
@@ -29,7 +30,7 @@
 
 .countries{
     color: #ffffff;
-    margin-left: -50%;
+    margin-left: -50%; 
     font-size: 3.2rem;
     
 }
