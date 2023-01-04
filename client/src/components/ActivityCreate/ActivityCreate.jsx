@@ -95,13 +95,13 @@ export default function ActivityCreate() {
           </div>  
 
           <form className="formActivity" onSubmit={handleSubmit}>
-            <span className='tituloCA'> Crea una Actividad </span>
+            <span className='tituloCA'> Create an Activity </span>
             <div className="inputAct">
               <label className='labelAct'></label>
               <input
                 className="i"
                 type="text"
-                placeholder="Coloque la Actividad..."
+                placeholder="Place the Activity..."
                 value={input.name}
                 name="name"
                 onChange={handleChange}
@@ -115,13 +115,13 @@ export default function ActivityCreate() {
                 type="text"
                 value={input.duration}
                 name="duration"
-                placeholder="Coloque la Duracion..."
+                placeholder="Set the Duration..."
                 onChange={handleChange}
               />
               {errors.duration && <p className="e">{errors.duration}</p>}
             </div>
             <div className="inputActivities">
-              <label> Dificultad </label>
+              <label> Difficulty </label>
               <input
                 className="i"
                 type="range"
@@ -140,11 +140,11 @@ export default function ActivityCreate() {
                 value={input.season}
                 onChange={(e) => handleChange(e)}
               >
-                <option className='op' > Temporada </option>
-                <option className='op' value={INVIERNO}>Invierno</option>
-                <option className='op' value={VERANO}>Verano</option>
-                <option className='op' value={OTOÑO}>Otoño</option>
-                <option className='op' value={PRIMAVERA}>Primavera</option>
+                <option className='op' > Season </option>
+                <option className='op' value={INVIERNO}>Winter</option>
+                <option className='op' value={VERANO}>Summer</option>
+                <option className='op' value={OTOÑO}>Fall</option>
+                <option className='op' value={PRIMAVERA}>Spring</option>
               </select>
               {errors.season && <p className="e">{errors.season}</p>}
             </div>
@@ -152,7 +152,7 @@ export default function ActivityCreate() {
 
             <div>
               <select  className="i" onChange={(e) => handleSelect(e)}>
-                <option className='op' > Paises </option>
+                <option className='op' > Countries </option>
                 {countries.map((v) => (
                   <option className='op' value={v.id}>{v.name}</option>
                 ))}
@@ -168,7 +168,7 @@ export default function ActivityCreate() {
               ))}
             </div>
             <div>
-              <button className='btnActivity' type="submit">Crear Actividad</button>
+              <button className='btnActivity' type="submit">Create Activity</button>
             </div>
           </form>
         </div>

@@ -67,7 +67,7 @@ export default function Home() {
             handleSort(e);
           }}
         >
-          <option>Filtrar por Orden Alfabetico</option>
+          <option>Filter by Alphabetical Order</option>
           <option value={ASCENDENTE}> A-Z </option>
           <option value={DESCENDENTE}> Z-A </option>
         </select>
@@ -77,27 +77,27 @@ export default function Home() {
             handleSort2(e);
           }}
         >
-          <option>Filtrar por poblacion</option>
-          <option value={HIGHER_POPULATION}>Mayor Poblacion</option>
-          <option value={LESS_POPULATION}>Menor Poblacion</option>
+          <option>Filter by population</option>
+          <option value={HIGHER_POPULATION}>Higher Population</option>
+          <option value={LESS_POPULATION}>Less Population</option>
         </select>
 
         <select className='filter-and-order' onChange={(e) => handleFilterActivity(e)}>
-          <option value="todos"> Actividades </option>
+          <option value="todos"> Activities </option>
           {activities.map((v) => (
             <option value={v.name}>{v.name}</option>
           ))} 
         </select>
 
         <select className='filter-and-order' onChange={(e) => handleFilterContinent(e)}>
-          <option value="continent">Continentes</option>
-          <option value={ALL}>Todos</option>
+          <option value="continent">continents</option>
+          <option value={ALL}>All</option>
           <option value={AFRICA}>Africa</option>
-          <option value={ANTARCTICA}>Antartida</option>
-          <option value={NORTH_AMERICA}>America del Norte</option>
-          <option value={SOUTH_AMERICA}>America del Sur</option>
+          <option value={ANTARCTICA}>Antarctica</option>
+          <option value={NORTH_AMERICA}>North America</option>
+          <option value={SOUTH_AMERICA}>South America</option>
           <option value={ASIA}>Asia</option>
-          <option value={EUROPE}>Europa</option>
+          <option value={EUROPE}>Europe</option>
           <option value={OCEANIA}>Oceania</option>
         </select>
       </div>

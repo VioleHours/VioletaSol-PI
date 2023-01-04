@@ -13,8 +13,8 @@ export default function NavBar() {
       </div>
       <div className='navContent'>
       <Link className='navLink' to='/home'>Home</Link>
-      <Link className='navLink' to='/activity'>Crear Actividad</Link>
-      <Link className='navLink' to='/activities'>Lista de Actividades</Link>
+      <Link className='navLink' to='/activity'>Create Activity</Link>
+      <Link className='navLink' to='/activities'>Activities list</Link>
       <SearchBar className='navSearchBar'/>
     </div>
       </div>

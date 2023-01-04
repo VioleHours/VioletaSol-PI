@@ -22,7 +22,7 @@ export default function SearchBar() {
 
     return (<div className='formSearchBar'>
         <form  onSubmit={onSubmit}>
-            <input className='inputCountry' type="text" placeholder='Colocar pais...' onChange={onInputChange} value={search} />
+            <input className='inputCountry' type="text" placeholder='Place country...' onChange={onInputChange} value={search} />
             <input className='inputButton' type="submit" value="" />
         </form>
     </div>)
