@@ -86,7 +86,7 @@ export default function Home() {
           <option value="todos"> Actividades </option>
           {activities.map((v) => (
             <option value={v.name}>{v.name}</option>
-          ))}
+          ))} 
         </select>
 
         <select className='filter-and-order' onChange={(e) => handleFilterContinent(e)}>
