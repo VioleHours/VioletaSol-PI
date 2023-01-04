@@ -1,6 +1,6 @@
 .navBarConteiner{
-    display: inline-flex;
-    width: 100%;
+    display: flex;
+    width: fit-content;
     height: 100%;
     align-items: baseline;
     justify-content: space-around;
@@ -9,7 +9,7 @@
 .navContent{
     justify-content: space-around ;
     display: inline-flex;
-    width: 100%;
+    width: fit-content;
 }
 
 
