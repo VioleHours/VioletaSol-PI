@@ -68,7 +68,7 @@ export function getActivities() {
                 payload: json.data
             })
         } catch (error) {
-            alert('No hay actividades')
+            // alert('No hay actividades')
             console.log(error)
         }
     }
