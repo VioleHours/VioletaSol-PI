@@ -18,6 +18,8 @@ function validate(input) {
     errors.season = "Debe seleccionar una estacion";
   } else if (input.countryId === []) {
     errors.countryId = "Debe seleccionar un pais";
+  } else if (input.duration <= 0){
+    errors.duration = 'La duración debe ser un numero positivo';
   }
   return errors;
 }
