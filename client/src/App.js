@@ -6,8 +6,6 @@ import ActivityCreate from './components/ActivityCreate/ActivityCreate'
 import Detail from './components/Detail/Detail'
 import ActivitiesList from './components/ActivitiesList/ActivitiesList'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import axios from 'axios';
-axios.defaults.baseURL= 'https://violetasol-pi-production.up.railway.app'
 
 
 function App() {
