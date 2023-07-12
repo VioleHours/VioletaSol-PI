@@ -1,3 +1,14 @@
+<img src='./imagenes-proyecto/landingpage.png' width="100%" height="100%" />
+<p>
+  <img src='./imagenes-proyecto/home.png' width="49.5%" height="50%" />
+  <img src='./imagenes-proyecto/filtros.png' width="49.5%" height="50%"/>
+</p>
+<img src='./imagenes-proyecto/createactivity.png' width="100%" height="100%" />
+<p>
+  <img src='./imagenes-proyecto/activitieslist.png' width="49.5%" height="50%" />
+  <img src='./imagenes-proyecto/filtrosporactividades.png' width="49.5%" height="50%"/>
+</p>
+
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # Individual Project - Henry Countries
